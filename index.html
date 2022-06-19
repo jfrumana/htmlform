@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title> Forms</title>
+    </head>
+    <body>
+    <style>
+    body{
+    background-color: cyan;
+    color: blue;
+}
+    </style>
+        <h1> User information</h1>
+        <form style="text-align:center;font-size:18px" action="/form.php" method="GET" target="_blank">
+            <fieldset>
+                <legend> basic details</legend>
+            Name:
+            <input type="text"><br>
+            Age:
+            <input type="number"><br>
+            DOB:
+            <input type="date"><br>
+            Email:
+            <input type="email"><br>
+            Gender:
+            <br>
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female
+            <br>
+            </fieldset>
+<fieldset>  
+    <legend>other details</legend>
+              Hobbies:
+            <input type="checkbox" name="hobbies" value="art"> Art
+            <input type="checkbox" name="hobbies" value="singing"> Singing
+            <input type="checkbox" name="hobbies" value="sports"> Sports
+            <input type="checkbox" name="hobbies" value="reading"> Reading
+            <br>
+            <input type="submit"></fieldset>
+        </form>
+    </body>
+</html>
